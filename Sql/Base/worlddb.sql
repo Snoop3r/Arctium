@@ -61,6 +61,8 @@ CREATE TABLE `creature_data` (
 -- Records of creature_data
 -- ----------------------------
 INSERT INTO `creature_data` VALUES ('57754', '408', '5', '1', '35', '1', '33536', '2048', '1');
+INSERT INTO `creature_data` VALUES ('53566', '393941', '90', '1', '35', '1', '32768', '2048', '0');
+INSERT INTO `creature_data` VALUES ('60183', '110', '2', '1', '35', '1', '33536', '2048', '0');
 
 -- ----------------------------
 -- Table structure for `creature_gossips`
@@ -98,6 +100,8 @@ CREATE TABLE `creature_spawns` (
 -- Records of creature_spawns
 -- ----------------------------
 INSERT INTO `creature_spawns` VALUES ('1', '57754', '860', '1449.7', '3406.6', '171.092', '2.2868');
+INSERT INTO `creature_spawns` VALUES ('2', '53566', '860', '1462.004', '3465.594', '181.5808', '2.852041');
+INSERT INTO `creature_spawns` VALUES ('3', '60183', '860', '1379.043', '3270.08', '132.5602', '0.7749309');
 
 -- ----------------------------
 -- Table structure for `creature_stats`
@@ -137,6 +141,8 @@ CREATE TABLE `creature_stats` (
 -- Records of creature_stats
 -- ----------------------------
 INSERT INTO `creature_stats` VALUES ('57754', 'Instructor Mossthorn', '', '', '0', '0', '7', '0', '0', '0', '0', '39795', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `creature_stats` VALUES ('53566', 'Master Shang Xi', '', '', '0', '0', '7', '0', '0', '0', '0', '39574', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `creature_stats` VALUES ('60183', 'Trainee Nim', '', '', '0', '0', '7', '0', '0', '0', '0', '45862', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for `gameobject_gossips`
